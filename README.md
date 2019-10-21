@@ -6,6 +6,6 @@
    * Euclidean distance
    * Hamming distance
    * Angle distance
- * For each distance metric, a family of hash function is used (which is locality sensitive) which hash documents to buckets.
+ * For each distance metric, a family of hash function is used (which is locality sensitive), which hashes similar documents to same buckets.
  * The union of all the buckets to which the query gets hashed, gives us the candidates for similarilty calculation.
  
